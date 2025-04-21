@@ -15,16 +15,16 @@ export const Contact = () => {
             {/* Header div */}
             <div className="flex flex-col items-center justify-evenly py-10 px-4 text-center">
                 <motion.h1 className="font-bold text-6xl md:text-6xl sm:text-6xl p-3"
-                    initial={{ opacity: 0, y: -20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
+                    // initial={{ opacity: 0, y: -20 }}
+                    // whileInView={{ opacity: 1, y: 0 }}
+                    // transition={{ duration: 1 }}
                 >
                     Contact <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">hba</span>tech
                 </motion.h1>
                 <motion.p className="text-lg text-gray-500"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
+                    // initial={{ opacity: 0, y: 20 }}
+                    // whileInView={{ opacity: 1, y: 0 }}
+                    // transition={{ duration: 1 }}
                 >
                     Reach out, i'd love to hear from you.
                 </motion.p>
@@ -36,9 +36,9 @@ export const Contact = () => {
                     e.preventDefault();
                     alert("Thanks for reaching out!");
                 }}
-                initial={{ opacity: 0, x: -150 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 1 }}
+                // initial={{ opacity: 0, x: -150 }}
+                // whileInView={{ opacity: 1, x: 0 }}
+                // transition={{ duration: 1 }}
             >
                 <input
                     type="text"
@@ -73,9 +73,9 @@ export const Contact = () => {
 
             {/* Social media links */}
             <motion.div className="mt-10 flex flex-row items-center justify-center gap-7 flex-wrap max-w-9/12"
-                initial={{ opacity: 0, x: 150 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 1 }}
+                // initial={{ opacity: 0, x: 150 }}
+                // whileInView={{ opacity: 1, x: 0 }}
+                // transition={{ duration: 1 }}
             >      
                 <a href="mailto:hbatech@outlook.com" target="_blank" rel="noopener noreferrer">
                     <Mail className="w-6 h-6 hover:text-blue-400 transition" />

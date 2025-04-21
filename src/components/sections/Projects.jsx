@@ -34,18 +34,18 @@ export const Projects = () => {
             className="min-h-screen flex flex-col items-center justify-center"
         >
             {/* Header div */}
-            <div className="flex flex-col items-center justify-evenly py-10 px-4 text-center">
+            <div className="flex flex-col items-center justify-evenly py-10 text-center w-full">
                 <motion.h1 className="font-bold text-6xl md:text-6xl sm:text-6xl p-3"
-                    initial={{ opacity: 0, y: -20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
+                    // initial={{ opacity: 0, y: -20 }}
+                    // whileInView={{ opacity: 1, y: 0 }}
+                    // transition={{ duration: 1 }}
                 >
                     Projects by <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">hba</span>tech
                 </motion.h1>
                 <motion.p className="text-lg text-gray-500"
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
+                    // initial={{ opacity: 0, y: 20 }}
+                    // whileInView={{ opacity: 1, y: 0 }}
+                    // transition={{ duration: 1 }}
                 >
                     From sketches to screens - here's what i've been up to.
                 </motion.p>
@@ -53,9 +53,9 @@ export const Projects = () => {
 
             {/* Projects information */}
             <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto"
-                initial={{ opacity: 0, x: -150 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 1 }}
+                // initial={{ opacity: 0, x: -150 }}
+                // whileInView={{ opacity: 1, x: 0 }}
+                // transition={{ duration: 1 }}
             >
                 {projects.map((project, idx) => (
                     <a
