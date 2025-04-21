@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const projects = [
     {
@@ -62,8 +63,6 @@ export const Projects = () => {
                         key={idx}
                         target="_blank"
                         rel="noopener noreferrer"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.98 }}
                         className="rounded-xl overflow-hidden shadow-lg bg-white/5 border border-white/10 hover:shadow-2xl transition-all cursor-pointer flex flex-col h-100"
                     >
                         <div className="flex-1 bg-cover bg-center" style={{ backgroundImage: `url(${project.imageUrl})` }} />

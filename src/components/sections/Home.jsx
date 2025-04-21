@@ -1,5 +1,6 @@
 import React from 'react';
 import { GradientSplash } from '../GradientSplash.jsx';
+import { motion } from 'framer-motion';
 
 export const Home = () => {
     return (

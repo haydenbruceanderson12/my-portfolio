@@ -5,6 +5,7 @@ import {
     Github,
     Twitter,
 } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 export const Contact = () => {
     return (

@@ -8,6 +8,7 @@ import { VscAzure } from "react-icons/vsc";
 import { DiPostgresql } from "react-icons/di";
 import { SiDotnet } from "react-icons/si";
 import { BiLogoJavascript } from "react-icons/bi";
+import { motion } from 'framer-motion';
 
 const skills = [
     { icon: DiHtml5, label: 'HTML5' },
