@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { SiReact } from 'react-icons/si';
 import { DiGit } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
